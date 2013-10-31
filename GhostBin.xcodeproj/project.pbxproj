@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3E73131822F2BA00D542E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E73121822F2BA00D542E3 /* Foundation.framework */; };
+		1A3E73151822F2BA00D542E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E73141822F2BA00D542E3 /* CoreGraphics.framework */; };
+		1A3E73171822F2BA00D542E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E73161822F2BA00D542E3 /* UIKit.framework */; };
+		1A3E731D1822F2BA00D542E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E731B1822F2BA00D542E3 /* InfoPlist.strings */; };
+		1A3E731F1822F2BA00D542E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E731E1822F2BA00D542E3 /* main.m */; };
+		1A3E73231822F2BA00D542E3 /* GBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E73221822F2BA00D542E3 /* GBAppDelegate.m */; };
+		1A3E73261822F2BA00D542E3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E73241822F2BA00D542E3 /* Main_iPhone.storyboard */; };
+		1A3E73291822F2BA00D542E3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E73271822F2BA00D542E3 /* Main_iPad.storyboard */; };
+		1A3E732C1822F2BA00D542E3 /* GBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E732B1822F2BA00D542E3 /* GBViewController.m */; };
+		1A3E732E1822F2BA00D542E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E732D1822F2BA00D542E3 /* Images.xcassets */; };
+		1A3E73351822F2BA00D542E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E73341822F2BA00D542E3 /* XCTest.framework */; };
+		1A3E73361822F2BA00D542E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E73121822F2BA00D542E3 /* Foundation.framework */; };
+		1A3E73371822F2BA00D542E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3E73161822F2BA00D542E3 /* UIKit.framework */; };
+		1A3E733F1822F2BA00D542E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E733D1822F2BA00D542E3 /* InfoPlist.strings */; };
+		1A3E73411822F2BA00D542E3 /* GhostBinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E73401822F2BA00D542E3 /* GhostBinTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A3E73381822F2BA00D542E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3E73071822F2BA00D542E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3E730E1822F2BA00D542E3;
+			remoteInfo = GhostBin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A3E730F1822F2BA00D542E3 /* GhostBin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostBin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E73121822F2BA00D542E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A3E73141822F2BA00D542E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A3E73161822F2BA00D542E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A3E731A1822F2BA00D542E3 /* GhostBin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GhostBin-Info.plist"; sourceTree = "<group>"; };
+		1A3E731C1822F2BA00D542E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A3E731E1822F2BA00D542E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A3E73201822F2BA00D542E3 /* GhostBin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GhostBin-Prefix.pch"; sourceTree = "<group>"; };
+		1A3E73211822F2BA00D542E3 /* GBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
+		1A3E73221822F2BA00D542E3 /* GBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
+		1A3E73251822F2BA00D542E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1A3E73281822F2BA00D542E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1A3E732A1822F2BA00D542E3 /* GBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBViewController.h; sourceTree = "<group>"; };
+		1A3E732B1822F2BA00D542E3 /* GBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBViewController.m; sourceTree = "<group>"; };
+		1A3E732D1822F2BA00D542E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A3E73331822F2BA00D542E3 /* GhostBinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostBinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E73341822F2BA00D542E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1A3E733C1822F2BA00D542E3 /* GhostBinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GhostBinTests-Info.plist"; sourceTree = "<group>"; };
+		1A3E733E1822F2BA00D542E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A3E73401822F2BA00D542E3 /* GhostBinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GhostBinTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3E730C1822F2BA00D542E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E73151822F2BA00D542E3 /* CoreGraphics.framework in Frameworks */,
+				1A3E73171822F2BA00D542E3 /* UIKit.framework in Frameworks */,
+				1A3E73131822F2BA00D542E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E73301822F2BA00D542E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E73351822F2BA00D542E3 /* XCTest.framework in Frameworks */,
+				1A3E73371822F2BA00D542E3 /* UIKit.framework in Frameworks */,
+				1A3E73361822F2BA00D542E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3E73061822F2BA00D542E3 = {
+			isa = PBXGroup;
+			children = (
+				1A3E73181822F2BA00D542E3 /* GhostBin */,
+				1A3E733A1822F2BA00D542E3 /* GhostBinTests */,
+				1A3E73111822F2BA00D542E3 /* Frameworks */,
+				1A3E73101822F2BA00D542E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A3E73101822F2BA00D542E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E730F1822F2BA00D542E3 /* GhostBin.app */,
+				1A3E73331822F2BA00D542E3 /* GhostBinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A3E73111822F2BA00D542E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E73121822F2BA00D542E3 /* Foundation.framework */,
+				1A3E73141822F2BA00D542E3 /* CoreGraphics.framework */,
+				1A3E73161822F2BA00D542E3 /* UIKit.framework */,
+				1A3E73341822F2BA00D542E3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A3E73181822F2BA00D542E3 /* GhostBin */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E73211822F2BA00D542E3 /* GBAppDelegate.h */,
+				1A3E73221822F2BA00D542E3 /* GBAppDelegate.m */,
+				1A3E73241822F2BA00D542E3 /* Main_iPhone.storyboard */,
+				1A3E73271822F2BA00D542E3 /* Main_iPad.storyboard */,
+				1A3E732A1822F2BA00D542E3 /* GBViewController.h */,
+				1A3E732B1822F2BA00D542E3 /* GBViewController.m */,
+				1A3E732D1822F2BA00D542E3 /* Images.xcassets */,
+				1A3E73191822F2BA00D542E3 /* Supporting Files */,
+			);
+			path = GhostBin;
+			sourceTree = "<group>";
+		};
+		1A3E73191822F2BA00D542E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E731A1822F2BA00D542E3 /* GhostBin-Info.plist */,
+				1A3E731B1822F2BA00D542E3 /* InfoPlist.strings */,
+				1A3E731E1822F2BA00D542E3 /* main.m */,
+				1A3E73201822F2BA00D542E3 /* GhostBin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A3E733A1822F2BA00D542E3 /* GhostBinTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E73401822F2BA00D542E3 /* GhostBinTests.m */,
+				1A3E733B1822F2BA00D542E3 /* Supporting Files */,
+			);
+			path = GhostBinTests;
+			sourceTree = "<group>";
+		};
+		1A3E733B1822F2BA00D542E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E733C1822F2BA00D542E3 /* GhostBinTests-Info.plist */,
+				1A3E733D1822F2BA00D542E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A3E730E1822F2BA00D542E3 /* GhostBin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3E73441822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "GhostBin" */;
+			buildPhases = (
+				1A3E730B1822F2BA00D542E3 /* Sources */,
+				1A3E730C1822F2BA00D542E3 /* Frameworks */,
+				1A3E730D1822F2BA00D542E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GhostBin;
+			productName = GhostBin;
+			productReference = 1A3E730F1822F2BA00D542E3 /* GhostBin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A3E73321822F2BA00D542E3 /* GhostBinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3E73471822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "GhostBinTests" */;
+			buildPhases = (
+				1A3E732F1822F2BA00D542E3 /* Sources */,
+				1A3E73301822F2BA00D542E3 /* Frameworks */,
+				1A3E73311822F2BA00D542E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3E73391822F2BA00D542E3 /* PBXTargetDependency */,
+			);
+			name = GhostBinTests;
+			productName = GhostBinTests;
+			productReference = 1A3E73331822F2BA00D542E3 /* GhostBinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A3E73071822F2BA00D542E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Evolse Limited";
+				TargetAttributes = {
+					1A3E73321822F2BA00D542E3 = {
+						TestTargetID = 1A3E730E1822F2BA00D542E3;
+					};
+				};
+			};
+			buildConfigurationList = 1A3E730A1822F2BA00D542E3 /* Build configuration list for PBXProject "GhostBin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A3E73061822F2BA00D542E3;
+			productRefGroup = 1A3E73101822F2BA00D542E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3E730E1822F2BA00D542E3 /* GhostBin */,
+				1A3E73321822F2BA00D542E3 /* GhostBinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A3E730D1822F2BA00D542E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E73291822F2BA00D542E3 /* Main_iPad.storyboard in Resources */,
+				1A3E732E1822F2BA00D542E3 /* Images.xcassets in Resources */,
+				1A3E73261822F2BA00D542E3 /* Main_iPhone.storyboard in Resources */,
+				1A3E731D1822F2BA00D542E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E73311822F2BA00D542E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E733F1822F2BA00D542E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3E730B1822F2BA00D542E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E731F1822F2BA00D542E3 /* main.m in Sources */,
+				1A3E732C1822F2BA00D542E3 /* GBViewController.m in Sources */,
+				1A3E73231822F2BA00D542E3 /* GBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3E732F1822F2BA00D542E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E73411822F2BA00D542E3 /* GhostBinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3E73391822F2BA00D542E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3E730E1822F2BA00D542E3 /* GhostBin */;
+			targetProxy = 1A3E73381822F2BA00D542E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A3E731B1822F2BA00D542E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3E731C1822F2BA00D542E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A3E73241822F2BA00D542E3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3E73251822F2BA00D542E3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1A3E73271822F2BA00D542E3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3E73281822F2BA00D542E3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1A3E733D1822F2BA00D542E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3E733E1822F2BA00D542E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A3E73421822F2BA00D542E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A3E73431822F2BA00D542E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A3E73451822F2BA00D542E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GhostBin/GhostBin-Prefix.pch";
+				INFOPLIST_FILE = "GhostBin/GhostBin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A3E73461822F2BA00D542E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GhostBin/GhostBin-Prefix.pch";
+				INFOPLIST_FILE = "GhostBin/GhostBin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A3E73481822F2BA00D542E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GhostBin.app/GhostBin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GhostBin/GhostBin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GhostBinTests/GhostBinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1A3E73491822F2BA00D542E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GhostBin.app/GhostBin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GhostBin/GhostBin-Prefix.pch";
+				INFOPLIST_FILE = "GhostBinTests/GhostBinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A3E730A1822F2BA00D542E3 /* Build configuration list for PBXProject "GhostBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E73421822F2BA00D542E3 /* Debug */,
+				1A3E73431822F2BA00D542E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3E73441822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "GhostBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E73451822F2BA00D542E3 /* Debug */,
+				1A3E73461822F2BA00D542E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A3E73471822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "GhostBinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E73481822F2BA00D542E3 /* Debug */,
+				1A3E73491822F2BA00D542E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A3E73071822F2BA00D542E3 /* Project object */;
+}
