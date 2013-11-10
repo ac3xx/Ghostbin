@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1A3E730E1822F2BA00D542E3"
-               BuildableName = "GhostBin.app"
-               BlueprintName = "GhostBin"
-               ReferencedContainer = "container:GhostBin.xcodeproj">
+               BuildableName = "Ghostbin.temp_caseinsensitive_rename.app"
+               BlueprintName = "Ghostbin.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:Ghostbin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1A3E73321822F2BA00D542E3"
-               BuildableName = "GhostBinTests.xctest"
-               BlueprintName = "GhostBinTests"
-               ReferencedContainer = "container:GhostBin.xcodeproj">
+               BuildableName = "Ghostbin.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "Ghostbin.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:Ghostbin.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1A3E730E1822F2BA00D542E3"
-            BuildableName = "GhostBin.app"
-            BlueprintName = "GhostBin"
-            ReferencedContainer = "container:GhostBin.xcodeproj">
+            BuildableName = "Ghostbin.temp_caseinsensitive_rename.app"
+            BlueprintName = "Ghostbin.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:Ghostbin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1A3E730E1822F2BA00D542E3"
-            BuildableName = "GhostBin.app"
-            BlueprintName = "GhostBin"
-            ReferencedContainer = "container:GhostBin.xcodeproj">
+            BuildableName = "Ghostbin.temp_caseinsensitive_rename.app"
+            BlueprintName = "Ghostbin.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:Ghostbin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1A3E730E1822F2BA00D542E3"
-            BuildableName = "GhostBin.app"
-            BlueprintName = "GhostBin"
-            ReferencedContainer = "container:GhostBin.xcodeproj">
+            BuildableName = "Ghostbin.temp_caseinsensitive_rename.app"
+            BlueprintName = "Ghostbin.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:Ghostbin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

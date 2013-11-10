@@ -1,18 +1,34 @@
 //
 //  GBAppDelegate.m
-//  GhostBin
+//  Ghostbin
 //
 //  Created by James Long on 31/10/2013.
 //  Copyright (c) 2013 Evolse Limited. All rights reserved.
 //
 
 #import "GBAppDelegate.h"
+#import "GBViewController.h"
 
 @implementation GBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Override point for customisation after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    GBViewController *viewC = [GBViewController new];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewC];
+    navController.navigationBar.barTintColor = [UIColor colorWithRed:34/255.0f green:34/255.0f blue:34/255.0f alpha:1.0f];
+    navController.navigationBar.translucent = NO;
+    
+    self.window.backgroundColor = [UIColor colorWithRed:42/255.0f green:42/255.0f blue:42/255.0f alpha:1.0f];
+    
+    [[UIBarButtonItem appearance] setTintColor:[UIColor whiteColor]];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont systemFontOfSize:14.0f]} forState:UIControlStateNormal];
+    
+    // Display
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
