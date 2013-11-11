@@ -1,0 +1,3 @@
+[submodule "Chromatism"]
+	path = Chromatism
+	url = git@github.com:ac3xx/Chromatism.git
