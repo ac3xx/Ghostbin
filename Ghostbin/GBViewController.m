@@ -79,6 +79,14 @@
     
 }
 
+- (void)options:(id)sender {
+    // Display options
+}
+
+- (void)paste:(id)sender {
+    // Send paste
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
