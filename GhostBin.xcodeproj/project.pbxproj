@@ -22,10 +22,6 @@
 		1A3E73411822F2BA00D542E3 /* GhostBinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E73401822F2BA00D542E3 /* GhostBinTests.m */; };
 		1A51A295183014A0007CC66B /* css.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A51A294183014A0007CC66B /* css.plist */; };
 		1A699540182FF69C00FC8CBE /* objectivec.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A69953F182FF69C00FC8CBE /* objectivec.plist */; };
-		1A6E5FD8182FD5AD00D57404 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 1A6E5FD7182FD5AD00D57404 /* template.html */; };
-		1A6E5FDB182FD66300D57404 /* highlight.pack.js in Sources */ = {isa = PBXBuildFile; fileRef = 1A6E5FD9182FD66300D57404 /* highlight.pack.js */; };
-		1A6E5FDC182FD66300D57404 /* styles in Resources */ = {isa = PBXBuildFile; fileRef = 1A6E5FDA182FD66300D57404 /* styles */; };
-		1A6E5FDE182FD9DE00D57404 /* src-min-noconflict in Resources */ = {isa = PBXBuildFile; fileRef = 1A6E5FDD182FD9DE00D57404 /* src-min-noconflict */; };
 		1A6E5FEA182FDD7600D57404 /* libChromatism.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6E5FE5182FDD5900D57404 /* libChromatism.a */; };
 /* End PBXBuildFile section */
 
@@ -61,30 +57,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A3E730F1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ghostbin.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E730F1822F2BA00D542E3 /* Ghostbin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ghostbin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3E73121822F2BA00D542E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A3E73141822F2BA00D542E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1A3E73161822F2BA00D542E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1A3E731A1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ghostbin.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
+		1A3E731A1822F2BA00D542E3 /* Ghostbin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ghostbin-Info.plist"; sourceTree = "<group>"; };
 		1A3E731C1822F2BA00D542E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A3E731E1822F2BA00D542E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A3E73201822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ghostbin.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
+		1A3E73201822F2BA00D542E3 /* Ghostbin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ghostbin-Prefix.pch"; sourceTree = "<group>"; };
 		1A3E73211822F2BA00D542E3 /* GBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
 		1A3E73221822F2BA00D542E3 /* GBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
 		1A3E732A1822F2BA00D542E3 /* GBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBViewController.h; sourceTree = "<group>"; };
 		1A3E732B1822F2BA00D542E3 /* GBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBViewController.m; sourceTree = "<group>"; };
 		1A3E732D1822F2BA00D542E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1A3E73331822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ghostbin.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E73331822F2BA00D542E3 /* GhostbinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostbinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3E73341822F2BA00D542E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1A3E733C1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ghostbin.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
+		1A3E733C1822F2BA00D542E3 /* GhostbinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GhostbinTests-Info.plist"; sourceTree = "<group>"; };
 		1A3E733E1822F2BA00D542E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A3E73401822F2BA00D542E3 /* GhostBinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GhostBinTests.m; sourceTree = "<group>"; };
 		1A51A294183014A0007CC66B /* css.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = css.plist; path = Chromatism/Chromatism/Chromatism/Lexers/css.plist; sourceTree = SOURCE_ROOT; };
 		1A69953F182FF69C00FC8CBE /* objectivec.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = objectivec.plist; path = ../Chromatism/Chromatism/Chromatism/Lexers/objectivec.plist; sourceTree = "<group>"; };
-		1A6E5FD7182FD5AD00D57404 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
-		1A6E5FD9182FD66300D57404 /* highlight.pack.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.pack.js; sourceTree = "<group>"; };
-		1A6E5FDA182FD66300D57404 /* styles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = styles; sourceTree = "<group>"; };
-		1A6E5FDD182FD9DE00D57404 /* src-min-noconflict */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "src-min-noconflict"; sourceTree = "<group>"; };
 		1A6E5FDF182FDD5900D57404 /* Chromatism.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Chromatism.xcodeproj; path = Chromatism/Chromatism/Chromatism.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,8 +119,8 @@
 		1A3E73101822F2BA00D542E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A3E730F1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename.app */,
-				1A3E73331822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_renameTests.xctest */,
+				1A3E730F1822F2BA00D542E3 /* Ghostbin.app */,
+				1A3E73331822F2BA00D542E3 /* GhostbinTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,10 +145,6 @@
 				1A3E732B1822F2BA00D542E3 /* GBViewController.m */,
 				1A3E732D1822F2BA00D542E3 /* Images.xcassets */,
 				1A3E73191822F2BA00D542E3 /* Supporting Files */,
-				1A6E5FD7182FD5AD00D57404 /* template.html */,
-				1A6E5FD9182FD66300D57404 /* highlight.pack.js */,
-				1A6E5FDD182FD9DE00D57404 /* src-min-noconflict */,
-				1A6E5FDA182FD66300D57404 /* styles */,
 			);
 			path = GhostBin;
 			sourceTree = "<group>";
@@ -166,10 +154,10 @@
 			children = (
 				1A51A294183014A0007CC66B /* css.plist */,
 				1A69953F182FF69C00FC8CBE /* objectivec.plist */,
-				1A3E731A1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename-Info.plist */,
+				1A3E731A1822F2BA00D542E3 /* Ghostbin-Info.plist */,
 				1A3E731B1822F2BA00D542E3 /* InfoPlist.strings */,
 				1A3E731E1822F2BA00D542E3 /* main.m */,
-				1A3E73201822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename-Prefix.pch */,
+				1A3E73201822F2BA00D542E3 /* Ghostbin-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,7 +174,7 @@
 		1A3E733B1822F2BA00D542E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A3E733C1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_renameTests-Info.plist */,
+				1A3E733C1822F2BA00D542E3 /* GhostbinTests-Info.plist */,
 				1A3E733D1822F2BA00D542E3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -204,9 +192,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A3E730E1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename */ = {
+		1A3E730E1822F2BA00D542E3 /* Ghostbin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A3E73441822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "Ghostbin.temp_caseinsensitive_rename" */;
+			buildConfigurationList = 1A3E73441822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "Ghostbin" */;
 			buildPhases = (
 				1A3E730B1822F2BA00D542E3 /* Sources */,
 				1A3E730C1822F2BA00D542E3 /* Frameworks */,
@@ -217,14 +205,14 @@
 			dependencies = (
 				1A6E5FE9182FDD7000D57404 /* PBXTargetDependency */,
 			);
-			name = Ghostbin.temp_caseinsensitive_rename;
+			name = Ghostbin;
 			productName = GhostBin;
-			productReference = 1A3E730F1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename.app */;
+			productReference = 1A3E730F1822F2BA00D542E3 /* Ghostbin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1A3E73321822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_renameTests */ = {
+		1A3E73321822F2BA00D542E3 /* GhostbinTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A3E73471822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "Ghostbin.temp_caseinsensitive_renameTests" */;
+			buildConfigurationList = 1A3E73471822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "GhostbinTests" */;
 			buildPhases = (
 				1A3E732F1822F2BA00D542E3 /* Sources */,
 				1A3E73301822F2BA00D542E3 /* Frameworks */,
@@ -235,9 +223,9 @@
 			dependencies = (
 				1A3E73391822F2BA00D542E3 /* PBXTargetDependency */,
 			);
-			name = Ghostbin.temp_caseinsensitive_renameTests;
+			name = GhostbinTests;
 			productName = GhostBinTests;
-			productReference = 1A3E73331822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_renameTests.xctest */;
+			productReference = 1A3E73331822F2BA00D542E3 /* GhostbinTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -274,8 +262,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				1A3E730E1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename */,
-				1A3E73321822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_renameTests */,
+				1A3E730E1822F2BA00D542E3 /* Ghostbin */,
+				1A3E73321822F2BA00D542E3 /* GhostbinTests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,10 +292,7 @@
 			files = (
 				1A51A295183014A0007CC66B /* css.plist in Resources */,
 				1A3E732E1822F2BA00D542E3 /* Images.xcassets in Resources */,
-				1A6E5FDE182FD9DE00D57404 /* src-min-noconflict in Resources */,
 				1A699540182FF69C00FC8CBE /* objectivec.plist in Resources */,
-				1A6E5FD8182FD5AD00D57404 /* template.html in Resources */,
-				1A6E5FDC182FD66300D57404 /* styles in Resources */,
 				1A3E731D1822F2BA00D542E3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +313,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A3E731F1822F2BA00D542E3 /* main.m in Sources */,
-				1A6E5FDB182FD66300D57404 /* highlight.pack.js in Sources */,
 				1A3E732C1822F2BA00D542E3 /* GBViewController.m in Sources */,
 				1A3E73231822F2BA00D542E3 /* GBAppDelegate.m in Sources */,
 			);
@@ -347,7 +331,7 @@
 /* Begin PBXTargetDependency section */
 		1A3E73391822F2BA00D542E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A3E730E1822F2BA00D542E3 /* Ghostbin.temp_caseinsensitive_rename */;
+			target = 1A3E730E1822F2BA00D542E3 /* Ghostbin */;
 			targetProxy = 1A3E73381822F2BA00D542E3 /* PBXContainerItemProxy */;
 		};
 		1A6E5FE9182FDD7000D57404 /* PBXTargetDependency */ = {
@@ -457,10 +441,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GhostBin/Ghostbin.temp_caseinsensitive_rename-Prefix.pch";
-				INFOPLIST_FILE = "GhostBin/Ghostbin.temp_caseinsensitive_rename-Info.plist";
+				GCC_PREFIX_HEADER = "GhostBin/Ghostbin-Prefix.pch";
+				INFOPLIST_FILE = "GhostBin/Ghostbin-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Ghostbin.temp_caseinsensitive_rename;
+				PRODUCT_NAME = Ghostbin;
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../Headers/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -472,10 +456,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GhostBin/Ghostbin.temp_caseinsensitive_rename-Prefix.pch";
-				INFOPLIST_FILE = "GhostBin/Ghostbin.temp_caseinsensitive_rename-Info.plist";
+				GCC_PREFIX_HEADER = "GhostBin/Ghostbin-Prefix.pch";
+				INFOPLIST_FILE = "GhostBin/Ghostbin-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Ghostbin.temp_caseinsensitive_rename;
+				PRODUCT_NAME = Ghostbin;
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../Headers/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -497,8 +481,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "GhostBinTests/Ghostbin.temp_caseinsensitive_renameTests-Info.plist";
-				PRODUCT_NAME = Ghostbin.temp_caseinsensitive_renameTests;
+				INFOPLIST_FILE = "GhostBinTests/GhostbinTests-Info.plist";
+				PRODUCT_NAME = GhostbinTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -516,8 +500,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GhostBin/GhostBin-Prefix.pch";
-				INFOPLIST_FILE = "GhostBinTests/Ghostbin.temp_caseinsensitive_renameTests-Info.plist";
-				PRODUCT_NAME = Ghostbin.temp_caseinsensitive_renameTests;
+				INFOPLIST_FILE = "GhostBinTests/GhostbinTests-Info.plist";
+				PRODUCT_NAME = GhostbinTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -535,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A3E73441822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "Ghostbin.temp_caseinsensitive_rename" */ = {
+		1A3E73441822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "Ghostbin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A3E73451822F2BA00D542E3 /* Debug */,
@@ -544,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A3E73471822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "Ghostbin.temp_caseinsensitive_renameTests" */ = {
+		1A3E73471822F2BA00D542E3 /* Build configuration list for PBXNativeTarget "GhostbinTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A3E73481822F2BA00D542E3 /* Debug */,
